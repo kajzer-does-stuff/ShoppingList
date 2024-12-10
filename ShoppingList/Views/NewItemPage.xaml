@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingList.Views.NewItemPage"
+             Title="NewItemPage">
+    <Grid 
+        ColumnDefinitions="*,*,*,*,*" RowDefinitions="*"
+        HeightRequest="70"
+        VerticalOptions="Center">
+
+        <Editor x:Name="ItemName_Input"                    
+            Placeholder="Item Name"
+            WidthRequest="250"
+            Grid.Column="0"
+            FontSize="Medium"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"/>
+
+        <Editor x:Name="ItemQuantity_Input"
+            Placeholder="Quantity"
+            WidthRequest="250"
+            Grid.Column="1"
+            FontSize="Medium"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"/>
+
+        <Editor x:Name="ItemQuantityType_Input"
+            Placeholder="Quantity Type"
+            WidthRequest="250"
+            Grid.Column="2"
+            FontSize="Medium"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"/>
+
+        <Editor x:Name="ItemCategory_Input"
+            Placeholder="Category"
+            WidthRequest="250"
+            Grid.Column="3"
+            FontSize="Medium"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"/>  
+
+        <HorizontalStackLayout
+            Spacing="10"
+            HeightRequest="70"
+            WidthRequest="300"
+            Grid.Column="4"
+            VerticalOptions="Center"
+            HorizontalOptions="End">
+
+            <Button
+                Text="Add Item"
+                WidthRequest="120"
+                Clicked="AddItem_Clicked"/>
+
+            <Button
+                Text="Cancel"
+                WidthRequest="120"
+                Clicked="Cancel_Clicked"/>
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>

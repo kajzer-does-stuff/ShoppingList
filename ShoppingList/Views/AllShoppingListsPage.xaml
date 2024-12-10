@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingList.Views.AllShoppingListsPage"             
+             Title="AllShoppingListsPage">
+    <VerticalStackLayout
+        BackgroundColor="#333">
+        <CollectionView
+            x:Name="ListOfShoppingLists"
+            ItemsSource="{Binding ShoppingListCollection}"
+            WidthRequest="800"
+            Margin="20"
+            SelectionMode="Single"
+            SelectionChanged="ListSelection_Changed">
+
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="5"/>
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <HorizontalStackLayout
+                        Spacing="10"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center">
+                        <Label
+                            x:Name="ListNameDisplay"
+                            Text="{Binding ListName}"
+                            TextTransform="Uppercase"/>
+                        <Label
+                            x:Name="ListIDDisplay"
+                            Text="{Binding ListID}"/>
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+        <Button
+            HeightRequest="80"
+            WidthRequest="130"
+            Text="Add new list"
+            ImageSource="{FontImage Glyph='+', Color=White, Size=22}"
+            Clicked="AddShoppingList_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

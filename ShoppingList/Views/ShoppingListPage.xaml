@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ShoppingList.Views"
+             x:Class="ShoppingList.Views.ShoppingListPage"
+             Title="{Binding ListName}">
+    <VerticalStackLayout
+        BackgroundColor="#333">
+        <Label
+            x:Name="ShoppingListNameDisplay"
+            Text="{Binding ListName}"
+            WidthRequest="300"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            FontSize="Large"/>
+        
+        <CollectionView
+            x:Name="ListOfItems"
+            ItemsSource="{Binding ItemsList}"
+            WidthRequest="800"
+            HeightRequest="500"
+            Margin="20">
+
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="5"/>
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <views:ItemPage
+                        ItemName="{Binding ItemName}"
+                        ItemCategory="{Binding IsCheckedOut}"
+                        ItemQuantity="{Binding ItemQuantity}"
+                        ItemQtyType="{Binding ItemQuantityType}"
+                        IsCheckedOut="{Binding IsCheckedOut}"
+                        
+                        CheckOutItemClicked="{Binding Source={views:ShoppingListPage}, Path=CheckOutItemCommand}"
+                        RemoveItemClicked="{Binding Source={views:ShoppingListPage}, Path=RemoveItemCommand}"
+                        
+                        IncreaseQtyClicked="{Binding Source={views:ShoppingListPage}, Path=IncreaseQtyCommand}"
+                        DecreaseQtyClicked="{Binding Source={views:ShoppingListPage}, Path=DecreaseQtyCommand}"
+                        />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button
+            HeightRequest="80"
+            WidthRequest="130"
+            Text="Add item"
+            ImageSource="{FontImage Glyph='+', Color=White, Size=22}"
+            Clicked="AddListItem_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
