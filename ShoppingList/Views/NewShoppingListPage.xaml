@@ -2,25 +2,66 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingList.Views.NewShoppingListPage"
-             Title="NewShoppingListPage">
-    <HorizontalStackLayout
+             Title="NewShoppingListPage"
+             BackgroundColor="#111">
+    <!--<HorizontalStackLayout
         Spacing="10"
-        HeightRequest="70"
-        WidthRequest="400"
+        HeightRequest="100"
         VerticalOptions="Center"
-        HorizontalOptions="Center">
+        HorizontalOptions="Center"
+        BackgroundColor="#333">
         <Editor
             x:Name="NewShoppingListName_Input"
-            Placeholder="List Name"
-            WidthRequest="150"
-            VerticalTextAlignment="Center"/>
+            Placeholder="Nazwa"
+            WidthRequest="300"
+            FontSize="Medium"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"
+            PlaceholderColor="White"
+            TextColor="White"/>
         <Button
-            Text="Add List"
-            WidthRequest="75"
+            Text="Dodaj listę"
+            WidthRequest="150"
             Clicked="AddNewShoppingList_Clicked"/>
         <Button
-            Text="Cancel"
-            WidthRequest="75"
+            Text="Anuluj"
+            WidthRequest="150"
             Clicked="Cancel_Clicked"/>
-    </HorizontalStackLayout>
+    </HorizontalStackLayout>-->
+
+    <Grid
+        ColumnDefinitions="*,*" RowDefinitions="*,*"
+        WidthRequest="500"
+        HeightRequest="200"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        BackgroundColor="#333">
+        <Editor
+            Grid.Column="0"
+            Grid.Row="0"
+            Grid.ColumnSpan="2"
+            x:Name="NewShoppingListName_Input"
+            Placeholder="Nazwa"
+            WidthRequest="300"
+            HeightRequest="100"
+            FontSize="Medium"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"
+            PlaceholderColor="White"
+            TextColor="White"/>
+        <Button
+            Grid.Column="0"
+            Grid.Row="1"
+            Text="Dodaj listę"
+            WidthRequest="150"
+            Clicked="AddNewShoppingList_Clicked"
+            Margin="25"/>
+        <Button
+            Grid.Column="1"
+            Grid.Row="1"
+            Text="Anuluj"
+            WidthRequest="150"
+            Clicked="Cancel_Clicked"
+            Margin="25"/>
+    </Grid>
 </ContentPage>

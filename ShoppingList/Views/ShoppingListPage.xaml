@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:views="clr-namespace:ShoppingList.Views"
              x:Class="ShoppingList.Views.ShoppingListPage"
-             Title="{Binding ListName}">
+             Title="Lista zakupów">
     <VerticalStackLayout
         BackgroundColor="#111">
         
@@ -19,7 +19,8 @@
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Start"
                 Padding="60"
-                FontSize="Large"/>
+                FontSize="Large"
+                TextColor="White"/>
             <Button
                 HeightRequest="50"
                 WidthRequest="150"

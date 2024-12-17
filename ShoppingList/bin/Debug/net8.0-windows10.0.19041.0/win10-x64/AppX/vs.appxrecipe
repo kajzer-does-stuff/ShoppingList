@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-17T00:27:57.652</Modified>
+      <Modified>2024-12-17T10:31:33.709</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.dll">
       <PackagePath>ShoppingList.dll</PackagePath>
-      <Modified>2024-12-17T00:27:56.931</Modified>
+      <Modified>2024-12-17T10:31:31.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ShoppingList.exe</PackagePath>
-      <Modified>2024-12-17T00:27:56.947</Modified>
+      <Modified>2024-12-17T10:31:32.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

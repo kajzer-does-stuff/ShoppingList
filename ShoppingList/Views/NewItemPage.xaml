@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingList.Views.NewItemPage"
-             Title="NewItemPage"
+             Title="Dodaj produkt"
              BackgroundColor="#111">
     <Grid 
         ColumnDefinitions="400,150,150" RowDefinitions="*,*"
@@ -58,13 +58,13 @@
             HorizontalOptions="Center"
             Spacing="50">
             <Button
-                Text="Add Item"
+                Text="Dodaj produkt"
                 WidthRequest="200"
                 HeightRequest="70"
                 Clicked="AddItem_Clicked"/>
 
             <Button
-                Text="Cancel"
+                Text="Anuluj"
                 WidthRequest="200"
                 HeightRequest="70"
                 Clicked="Cancel_Clicked"/>

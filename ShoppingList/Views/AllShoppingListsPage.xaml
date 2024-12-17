@@ -2,9 +2,33 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingList.Views.AllShoppingListsPage"             
-             Title="AllShoppingListsPage">
-    <VerticalStackLayout
-        BackgroundColor="#333">
+             Title="Wszystkie listy"
+             BackgroundColor="#111">
+    
+    <VerticalStackLayout>
+        <HorizontalStackLayout
+            WidthRequest="800"
+            HeightRequest="100"
+            BackgroundColor="#333"
+            Margin="0,20,0,0">
+
+            <Label                
+                Text="Wszystkie listy"
+                WidthRequest="550"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                Padding="60"
+                FontSize="Large"
+                TextColor="White"/>
+            <Button
+                HeightRequest="50"
+                WidthRequest="150"
+                ImageSource="{FontImage Glyph='+', Color=White, Size=22}"
+                Text="Dodaj listę"
+                Margin="60,0,0,0"
+                Clicked="AddShoppingList_Clicked"/>
+        </HorizontalStackLayout>
+
         <CollectionView
             x:Name="ListOfShoppingLists"
             ItemsSource="{Binding ShoppingListCollection}"
@@ -20,26 +44,24 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <HorizontalStackLayout
+                        HeightRequest="100"
                         Spacing="10"
                         VerticalOptions="Center"
-                        HorizontalOptions="Center">
+                        HorizontalOptions="Center"
+                        BackgroundColor="#333">
+
                         <Label
                             x:Name="ListNameDisplay"
                             Text="{Binding ListName}"
-                            TextTransform="Uppercase"/>
-                        <Label
-                            x:Name="ListIDDisplay"
-                            Text="{Binding ListID}"/>
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Start"
+                            Padding="60"
+                            FontSize="Medium"
+                            TextColor="White"/>
                     </HorizontalStackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
 
         </CollectionView>
-        <Button
-            HeightRequest="80"
-            WidthRequest="130"
-            Text="Add new list"
-            ImageSource="{FontImage Glyph='+', Color=White, Size=22}"
-            Clicked="AddShoppingList_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

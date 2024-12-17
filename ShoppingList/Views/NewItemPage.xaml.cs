@@ -22,7 +22,7 @@ public partial class NewItemPage : ContentPage
 
 		ShoppingListItem newItem = new ShoppingListItem();
 		newItem.ItemName = UtilityThings.checkRegex(ItemName_Input.Text.ToString(), "Item", @".+");
-		newItem.ItemQuantity = int.Parse(UtilityThings.checkRegex(ItemQuantity_Input.Text.ToString(), "0", @"\d+"));
+		newItem.ItemQuantity = int.Parse(UtilityThings.checkRegex(ItemQuantity_Input.Text.ToString(), "0", @"^\d+"));
 		newItem.ItemQuantityType = UtilityThings.checkRegex(ItemQtyType_Input.SelectedItem.ToString(), "Thing", @".+");
 		newItem.IsCheckedOut = false;
         newItem.ItemIdInList = castedParentList.ItemsList.Count;

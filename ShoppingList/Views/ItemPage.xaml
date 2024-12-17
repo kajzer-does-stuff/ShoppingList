@@ -34,7 +34,8 @@
             Text="{Binding ItemName, FallbackValue='Produkt'}"
             FontSize="Medium"
             VerticalTextAlignment="Center"
-            TextDecorations="None">
+            TextDecorations="None"
+            TextColor="White">
             <Label.Triggers>
                 <DataTrigger 
                     TargetType="Label"
@@ -52,14 +53,15 @@
             FontSize="Medium"
             VerticalTextAlignment="Center"
             HorizontalTextAlignment="End"
-            />
+            TextColor="White"/>
         <Label
             Grid.Column="3"
             Grid.Row="1"
             Text="{Binding ItemQtyType, FallbackValue='szt.'}"
             FontSize="Medium"
             VerticalTextAlignment="Center"
-            HorizontalOptions="Start"/>
+            HorizontalOptions="Start"
+            TextColor="White"/>
         <Button     
             Grid.Column="4"
             HeightRequest="20"
