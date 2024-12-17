@@ -20,7 +20,7 @@ namespace ShoppingList.Models
             string _SavePath = FileSystem.AppDataDirectory;
 
             IEnumerable<ShoppingList> ShoppingLists = Directory
-                .EnumerateFiles(_SavePath, "*.shoppingList.txt")
+                .EnumerateFiles(_SavePath, "*.shoppingList.json")
                 .Select(file =>
                 {
                     try

@@ -9,11 +9,9 @@ namespace ShoppingList.Models
     internal class ShoppingListItem
     {
         public int ItemIdInList { get; set; }
-        public string ItemName { get; set; } = "List Item";
+        public string ItemName { get; set; } = "Produkt";
         public int ItemQuantity { get; set; }
-        public string ItemQuantityType { get; set; } = "";
-        // public ShoppingListCategory ItemCategory { get; set; } = new();
-        public string ItemCategory { get; set; } = "Other";
+        public string ItemQuantityType { get; set; } = "szt.";
         public bool IsCheckedOut { get; set; } = false;
     }
 }

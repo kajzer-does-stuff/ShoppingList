@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-10T00:11:45.297</Modified>
+      <Modified>2024-12-17T00:27:57.652</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-08T00:01:38.118</Modified>
+      <Modified>2024-12-15T20:49:15.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.runtimeconfig.json">
       <PackagePath>ShoppingList.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-04T18:15:41.572</Modified>
+      <Modified>2024-12-15T20:49:13.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.dll">
       <PackagePath>ShoppingList.dll</PackagePath>
-      <Modified>2024-12-10T00:11:44.640</Modified>
+      <Modified>2024-12-17T00:27:56.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ShoppingList.exe</PackagePath>
-      <Modified>2024-12-10T00:11:44.655</Modified>
+      <Modified>2024-12-17T00:27:56.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -1196,7 +1196,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.deps.json">
       <PackagePath>ShoppingList.deps.json</PackagePath>
-      <Modified>2024-12-08T00:01:37.391</Modified>
+      <Modified>2024-12-15T20:49:12.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -1205,6 +1205,14 @@
     <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-09-09T00:48:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\communitytoolkit.maui\9.1.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2024-11-08T09:03:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\communitytoolkit.maui.core\9.1.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2024-11-08T09:03:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -1337,6 +1345,10 @@
     <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-06-26T19:15:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2023-10-31T15:00:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.maui.controls.core\8.0.82\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>

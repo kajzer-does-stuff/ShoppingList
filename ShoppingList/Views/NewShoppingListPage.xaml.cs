@@ -14,9 +14,9 @@ public partial class NewShoppingListPage : ContentPage
     private async void AddNewShoppingList_Clicked(object sender, EventArgs e)
     {
         string shoppingListName = Regex.IsMatch(NewShoppingListName_Input.Text.ToString(), @".+") ?
-                                    NewShoppingListName_Input.Text.ToString() : "Shopping List";
+                                    NewShoppingListName_Input.Text.ToString() : "Lista zakupów";
 
-        string savePath = $"{FileSystem.AppDataDirectory}/{shoppingListName}.{Path.GetRandomFileName()}.shoppingList.txt";
+        string savePath = $"{FileSystem.AppDataDirectory}/{shoppingListName}.{Path.GetRandomFileName()}.shoppingList.json";
 
         Models.ShoppingList newShoppingList = new Models.ShoppingList();
         newShoppingList.ListName = shoppingListName;

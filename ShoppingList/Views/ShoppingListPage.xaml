@@ -5,21 +5,36 @@
              x:Class="ShoppingList.Views.ShoppingListPage"
              Title="{Binding ListName}">
     <VerticalStackLayout
-        BackgroundColor="#333">
-        <Label
-            x:Name="ShoppingListNameDisplay"
-            Text="{Binding ListName}"
-            WidthRequest="300"
-            HorizontalOptions="Center"
-            HorizontalTextAlignment="Center"
-            FontSize="Large"/>
+        BackgroundColor="#111">
         
+        <HorizontalStackLayout
+            WidthRequest="800"
+            HeightRequest="100"
+            BackgroundColor="#333"
+            Margin="0,20,0,0">
+
+            <Label                
+                Text="{Binding ListName}"
+                WidthRequest="550"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                Padding="60"
+                FontSize="Large"/>
+            <Button
+                HeightRequest="50"
+                WidthRequest="150"
+                ImageSource="{FontImage Glyph='+', Color=White, Size=22}"
+                Text="Dodaj produkt"
+                Margin="60,0,0,0"
+                Clicked="AddListItem_Clicked"/>
+        </HorizontalStackLayout>
+
         <CollectionView
             x:Name="ListOfItems"
             ItemsSource="{Binding ItemsList}"
             WidthRequest="800"
             HeightRequest="500"
-            Margin="20">
+            Margin="10">
 
             <CollectionView.ItemsLayout>
                 <LinearItemsLayout Orientation="Vertical" ItemSpacing="5"/>
@@ -29,25 +44,17 @@
                 <DataTemplate>
                     <views:ItemPage
                         ItemName="{Binding ItemName}"
-                        ItemCategory="{Binding IsCheckedOut}"
                         ItemQuantity="{Binding ItemQuantity}"
                         ItemQtyType="{Binding ItemQuantityType}"
                         IsCheckedOut="{Binding IsCheckedOut}"
                         
                         CheckOutItemClicked="{Binding Source={views:ShoppingListPage}, Path=CheckOutItemCommand}"
-                        RemoveItemClicked="{Binding Source={views:ShoppingListPage}, Path=RemoveItemCommand}"
-                        
+                        RemoveItemClicked="{Binding Source={views:ShoppingListPage}, Path=RemoveItemCommand}"                        
                         IncreaseQtyClicked="{Binding Source={views:ShoppingListPage}, Path=IncreaseQtyCommand}"
                         DecreaseQtyClicked="{Binding Source={views:ShoppingListPage}, Path=DecreaseQtyCommand}"
                         />
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Button
-            HeightRequest="80"
-            WidthRequest="130"
-            Text="Add item"
-            ImageSource="{FontImage Glyph='+', Color=White, Size=22}"
-            Clicked="AddListItem_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

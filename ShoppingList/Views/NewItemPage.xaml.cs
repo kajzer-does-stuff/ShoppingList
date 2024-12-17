@@ -18,25 +18,14 @@ public partial class NewItemPage : ContentPage
     }
 	private async void AddItem_Clicked(object sender, EventArgs e)
 	{
-		//explicit parentList cast to ShoppingList, so that I don't have to write ((Models.ShoppingList)parentList) every time
         Models.ShoppingList castedParentList = (Models.ShoppingList)parentList;
 
-		//TODO - put the regex in a global utility class
-        string itemName = checkRegex(ItemName_Input.Text.ToString(), "Item", @".+");
-        int itemQuantity = int.Parse(checkRegex(ItemQuantity_Input.Text.ToString(), "0", @"\d+"));
-        string itemQuantityType = checkRegex(ItemQuantityType_Input.Text.ToString(), "Thing", @".+");
-        string itemCategory = checkRegex(ItemCategory_Input.Text.ToString(), "Other", @".+");
-
-		ShoppingListItem newItem = new ShoppingListItem();		
-		
-		//maybe simplify this w/above?
-		newItem.ItemName = itemName;
-		newItem.ItemQuantity = itemQuantity;
-		newItem.ItemQuantityType = itemQuantityType;
-		newItem.ItemCategory = itemCategory;
+		ShoppingListItem newItem = new ShoppingListItem();
+		newItem.ItemName = UtilityThings.checkRegex(ItemName_Input.Text.ToString(), "Item", @".+");
+		newItem.ItemQuantity = int.Parse(UtilityThings.checkRegex(ItemQuantity_Input.Text.ToString(), "0", @"\d+"));
+		newItem.ItemQuantityType = UtilityThings.checkRegex(ItemQtyType_Input.SelectedItem.ToString(), "Thing", @".+");
 		newItem.IsCheckedOut = false;
-
-		newItem.ItemIdInList = castedParentList.ItemsList.Count;
+        newItem.ItemIdInList = castedParentList.ItemsList.Count;
 
         castedParentList.ItemsList.Add(newItem);
 
@@ -47,16 +36,5 @@ public partial class NewItemPage : ContentPage
 	private async void Cancel_Clicked(object sender, EventArgs e)
 	{
         await Shell.Current.GoToAsync("..");
-    }
-	private string checkRegex(string trueString, string falseString, string pattern)
-	{
-		if (Regex.IsMatch(trueString, pattern))
-		{
-			return trueString;
-		}
-		else
-		{
-			return falseString;
-		}
-	}
+    }	
 }

@@ -1,95 +1,87 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="ShoppingList.Views.ItemPage"
-             x:Name="this">
+             x:Name="this"
+             BackgroundColor="#333">
     <Grid
-        ColumnDefinitions="200,250,100,100,100"
+        ColumnDefinitions="100,300,50,100,50,50,100"
         WidthRequest="800"
-        HeightRequest="100"
+        HeightRequest="70"
         RowSpacing="20"
         Margin="20"
         VerticalOptions="Center"
         BindingContext="{x:Reference this}">
-
-        <Label
+        
+        <CheckBox
             Grid.Column="0"
+            WidthRequest="50"
+            HeightRequest="50"
+            IsChecked="{Binding IsCheckedOut}"
+            x:Name="CheckOutBox">
+            <CheckBox.Behaviors>
+                <toolkit:EventToCommandBehavior
+                    EventName="CheckedChanged"
+                    Command="{Binding Source={x:Reference this}, Path=CheckOutItemClicked}"
+                    CommandParameter="{Binding}"
+                    x:Name="EventToCommandBehavior"/>
+            </CheckBox.Behaviors>
+        </CheckBox>
+        <Label
+            Grid.Column="1"
             x:Name="Name"
             Text="{Binding ItemName, FallbackValue='Produkt'}"
             FontSize="Medium"
             VerticalTextAlignment="Center"
-            Padding="20"/>
-
-        <Label
-            Grid.Column="1"
-            Text="{Binding ItemCategory, FallbackValue='Inne'}"
+            TextDecorations="None">
+            <Label.Triggers>
+                <DataTrigger 
+                    TargetType="Label"
+                    Binding="{Binding Source={x:Reference CheckOutBox}, Path=IsChecked}"
+                    Value="true">
+                    <Setter Property="TextDecorations"
+                            Value="Strikethrough"/>
+                </DataTrigger>
+            </Label.Triggers>
+        </Label>
+        <Editor 
+            Grid.Column="2"
+            x:Name="ItemQty_Input"
+            Text="{Binding ItemQuantity, FallbackValue='0'}"
             FontSize="Medium"
             VerticalTextAlignment="Center"
-            Padding="20"/>
-
-        <Grid
-            Grid.Column="2"
-            ColumnDefinitions="*,*"
-            RowDefinitions="*,*,*"
-            HeightRequest="100"
-            WidthRequest="100">
-
-            <Button     
-                Grid.Column="0"
-                Grid.Row="0"
-                Grid.ColumnSpan="2"
-                HeightRequest="20"
-                WidthRequest="100"
-                Text="+"
-                CornerRadius="0"
-                Command="{Binding Source={x:Reference this}, Path=IncreaseQtyClicked}"
-                CommandParameter="{Binding}"
-                />
-
-            <Label
-                Grid.Column="0"
-                Grid.Row="1"
-                Text="{Binding ItemQuantity, FallbackValue='0'}"
-                FontSize="Medium"
-                VerticalTextAlignment="Center"
-                HorizontalOptions="End"
-                Padding="5"/>
-            
-            <Label
-                Grid.Column="1"
-                Grid.Row="1"
-                Text="{Binding ItemQtyType, FallbackValue='szt.'}"
-                FontSize="Medium"
-                VerticalTextAlignment="Center"
-                HorizontalOptions="Start"/>
-
-            <Button     
-                Grid.Column="0"
-                Grid.Row="2"
-                Grid.ColumnSpan="2"
-                HeightRequest="20"
-                WidthRequest="100"
-                Text="-"
-                CornerRadius="0"
-                Command="{Binding Source={x:Reference this}, Path=DecreaseQtyClicked}"
-                CommandParameter="{Binding}"
-                />
-        </Grid>
-        <Button     
-            Grid.Column="3"
-            HeightRequest="70"
-            WidthRequest="100"
-            Text="Odznacz"
-            Command="{Binding Source={x:Reference this}, Path=CheckOutItemClicked}"
-            CommandParameter="{Binding}"
+            HorizontalTextAlignment="End"
             />
+        <Label
+            Grid.Column="3"
+            Grid.Row="1"
+            Text="{Binding ItemQtyType, FallbackValue='szt.'}"
+            FontSize="Medium"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Start"/>
         <Button     
             Grid.Column="4"
-            HeightRequest="70"
-            WidthRequest="100"
-            Text="Usuń"
+            HeightRequest="20"
+            WidthRequest="50"
+            Text="-"
+            Command="{Binding Source={x:Reference this}, Path=DecreaseQtyClicked}"
+            CommandParameter="{Binding}"/>
+        <Button     
+            Grid.Column="5"
+            HeightRequest="20"
+            WidthRequest="50"
+            Text="+"
+            Command="{Binding Source={x:Reference this}, Path=IncreaseQtyClicked}"
+            CommandParameter="{Binding}"/>
+        <Button     
+            Grid.Column="6"
+            HeightRequest="20"
+            WidthRequest="50"
+            HorizontalOptions="End"
+            BackgroundColor="Red"
+            ImageSource="{FontImage Glyph='&#10005;', Color=White, Size=25}"
             Command="{Binding Source={x:Reference this}, Path=RemoveItemClicked}"
-            CommandParameter="{Binding}"
-            />
+            CommandParameter="{Binding}"/>
     </Grid>
 </ContentView>

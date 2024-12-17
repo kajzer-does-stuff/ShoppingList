@@ -2,61 +2,73 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingList.Views.NewItemPage"
-             Title="NewItemPage">
+             Title="NewItemPage"
+             BackgroundColor="#111">
     <Grid 
-        ColumnDefinitions="*,*,*,*,*" RowDefinitions="*"
-        HeightRequest="70"
-        VerticalOptions="Center">
+        ColumnDefinitions="400,150,150" RowDefinitions="*,*"
+        HeightRequest="250"
+        WidthRequest="700"
+        VerticalOptions="Center"
+        BackgroundColor="#333">
 
-        <Editor x:Name="ItemName_Input"                    
-            Placeholder="Item Name"
-            WidthRequest="250"
+        <Editor 
             Grid.Column="0"
+            Grid.Row="0"
+            x:Name="ItemName_Input"                    
+            Placeholder="Nazwa"            
             FontSize="Medium"
             VerticalTextAlignment="Center"
-            HorizontalTextAlignment="Center"/>
+            HorizontalTextAlignment="Center"
+            PlaceholderColor="White"
+            TextColor="White"/>
 
-        <Editor x:Name="ItemQuantity_Input"
-            Placeholder="Quantity"
-            WidthRequest="250"
+        <Editor 
             Grid.Column="1"
+            Grid.Row="0"
+            x:Name="ItemQuantity_Input"                    
+            Placeholder="Ilość"
             FontSize="Medium"
             VerticalTextAlignment="Center"
-            HorizontalTextAlignment="Center"/>
+            HorizontalTextAlignment="Center"
+            PlaceholderColor="White"
+            TextColor="White"/>
 
-        <Editor x:Name="ItemQuantityType_Input"
-            Placeholder="Quantity Type"
-            WidthRequest="250"
+        <Picker
             Grid.Column="2"
+            Grid.Row="0"
+            x:Name="ItemQtyType_Input"
+            SelectedIndex="0"
             FontSize="Medium"
-            VerticalTextAlignment="Center"
-            HorizontalTextAlignment="Center"/>
-
-        <Editor x:Name="ItemCategory_Input"
-            Placeholder="Category"
-            WidthRequest="250"
-            Grid.Column="3"
-            FontSize="Medium"
-            VerticalTextAlignment="Center"
-            HorizontalTextAlignment="Center"/>  
+            TextColor="White">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>szt.</x:String>
+                    <x:String>l</x:String>
+                    <x:String>kg</x:String>
+                    <x:String>dag</x:String>
+                    <x:String>op.</x:String>
+                </x:Array>
+            </Picker.ItemsSource>            
+        </Picker>
 
         <HorizontalStackLayout
-            Spacing="10"
-            HeightRequest="70"
-            WidthRequest="300"
-            Grid.Column="4"
-            VerticalOptions="Center"
-            HorizontalOptions="End">
-
+            Grid.Column="0"
+            Grid.Row="1"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="Center"
+            Spacing="50">
             <Button
                 Text="Add Item"
-                WidthRequest="120"
+                WidthRequest="200"
+                HeightRequest="70"
                 Clicked="AddItem_Clicked"/>
 
             <Button
                 Text="Cancel"
-                WidthRequest="120"
+                WidthRequest="200"
+                HeightRequest="70"
                 Clicked="Cancel_Clicked"/>
+
         </HorizontalStackLayout>
     </Grid>
 </ContentPage>

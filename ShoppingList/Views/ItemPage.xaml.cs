@@ -6,7 +6,6 @@ namespace ShoppingList.Views;
 public partial class ItemPage : ContentView
 {
     public static readonly BindableProperty ItemNameProperty = BindableProperty.Create(nameof(ItemName), typeof(string), typeof(ItemPage), string.Empty);
-    public static readonly BindableProperty ItemCategoryProperty = BindableProperty.Create(nameof(ItemCategory), typeof(string), typeof(ItemPage), string.Empty);
     public static readonly BindableProperty ItemQuantityProperty = BindableProperty.Create(nameof(ItemQuantity), typeof(int), typeof(ItemPage), 0);
     public static readonly BindableProperty ItemQtyTypeProperty = BindableProperty.Create(nameof(ItemQtyType), typeof(string), typeof(ItemPage), string.Empty);
     public static readonly BindableProperty IsCheckedOutProperty = BindableProperty.Create(nameof(IsCheckedOut), typeof(bool), typeof(ItemPage), false);
@@ -21,11 +20,6 @@ public partial class ItemPage : ContentView
 		get => (string)GetValue(ItemNameProperty);
         set => SetValue(ItemNameProperty, value);
 	}
-    public string ItemCategory
-    {
-        get => (string)GetValue(ItemCategoryProperty);
-        set => SetValue(ItemCategoryProperty, value);
-    }
     public int ItemQuantity
     {
         get => (int)GetValue(ItemQuantityProperty);
@@ -64,6 +58,7 @@ public partial class ItemPage : ContentView
     public ItemPage()
     {
         InitializeComponent();
-        //ShoppingListPage.SetUICheckOut(this, IsCheckedOut);
+        BindingContext = this;
+        System.Diagnostics.Debug.WriteLine(BindingContext);
     }
 }

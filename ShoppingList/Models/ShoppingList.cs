@@ -12,10 +12,10 @@ namespace ShoppingList.Models
 {
     internal class ShoppingList
     {
-        public ObservableCollection<ShoppingListItem> ItemsList { get; set; } = new ObservableCollection<ShoppingListItem>();
+        public ObservableCollection<ShoppingListItem> ItemsList { get; set; } = new();
         public int ListID { get; set; } = 0;
         public string ListName { get; set; } = "Shopping List";
-        public string ListFileName { get; set; } = $"{FileSystem.AppDataDirectory}/test_shopping_list.shoppingList.txt";
+        public string ListFileName { get; set; } = $"{FileSystem.AppDataDirectory}/lista_zakupow.shoppingList.json";
         public static void SaveShoppingList(string savePath, ShoppingList saveList)
         {
             string saveData = JsonSerializer.Serialize(saveList);

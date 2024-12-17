@@ -1,4 +1,5 @@
 using ShoppingList.Models;
+using System.Collections.ObjectModel;
 using System.Text.Json;
 using System.Windows.Input;
 
@@ -20,7 +21,7 @@ public partial class ShoppingListPage : ContentPage
 	{
 		InitializeComponent();
 
-        LoadShoppingList($"{FileSystem.AppDataDirectory}/*.shoppinglist.txt");
+        LoadShoppingList($"{FileSystem.AppDataDirectory}/*.shoppinglist.json");
 	}
 
 	public async void AddListItem_Clicked(object sender, EventArgs e)
@@ -28,40 +29,28 @@ public partial class ShoppingListPage : ContentPage
 		await Navigation.PushAsync(new NewItemPage((Models.ShoppingList)BindingContext));
     }
 
-    protected override void OnAppearing()
-    {
-        base.OnAppearing();
-
-        //TODO - actually implement how to get a list of all colview children
-        foreach(CollectionView templatePage in ListOfItems.GetVisualTreeDescendants())
-        {
-
-        }
-
-    }
-
-    //item functions
-    //TODO - put all the checkedOutItem/parentList shit in a separate function/class
-
-    public void CheckOutItem_Clicked(object sender)
+    public async void CheckOutItem_Clicked(object sender)
     {        
         if(sender != null)
         {
-            ShoppingListItem checkedOutItem = (ShoppingListItem)(sender as ItemPage).BindingContext;
-            Models.ShoppingList parentList = (Models.ShoppingList)(sender as ItemPage).Parent.BindingContext;            
+            ItemPage senderPage = sender as ItemPage;
 
-            checkedOutItem.IsCheckedOut = !checkedOutItem.IsCheckedOut;
-            SetUICheckOut(sender, checkedOutItem.IsCheckedOut);
+            if(senderPage.Parent != null)
+            {
+                ShoppingListItem checkedOutItem = (ShoppingListItem)senderPage.BindingContext;
+                Models.ShoppingList parentList = (Models.ShoppingList)senderPage.Parent.BindingContext;
 
-            if (checkedOutItem.IsCheckedOut)
-            {                
-                parentList.ItemsList.Move(parentList.ItemsList.IndexOf(checkedOutItem), parentList.ItemsList.Count - 1);                
+                checkedOutItem.IsCheckedOut = !checkedOutItem.IsCheckedOut;
+
+                if (checkedOutItem.IsCheckedOut)
+                {
+                    parentList.ItemsList.Move(parentList.ItemsList.IndexOf(checkedOutItem), parentList.ItemsList.Count - 1);
+                }
+                Models.ShoppingList.SaveShoppingList(parentList);          
             }
             
-            Models.ShoppingList.SaveShoppingList(parentList);
         }
     }
-
     public void RemoveItem_Clicked(object sender)
     {
         if(sender != null)
@@ -73,7 +62,6 @@ public partial class ShoppingListPage : ContentPage
             Models.ShoppingList.SaveShoppingList(parentList);
         }
     }
-
     public void IncreaseQty_Clicked(object sender)
     {
         if (sender != null)
@@ -82,8 +70,9 @@ public partial class ShoppingListPage : ContentPage
             Models.ShoppingList parentList = (Models.ShoppingList)(sender as ItemPage).Parent.BindingContext;
 
             checkedOutItem.ItemQuantity++;
-            //TODO - this is painful, figure out how to update the ui some better way
-            parentList.ItemsList[parentList.ItemsList.IndexOf(checkedOutItem)] = checkedOutItem;
+            //parentList.ItemsList[parentList.ItemsList.IndexOf(checkedOutItem)] = checkedOutItem;
+
+            ((Editor)(sender as ItemPage).FindByName("ItemQty_Input")).Text = checkedOutItem.ItemQuantity.ToString();
 
             Models.ShoppingList.SaveShoppingList(parentList);
         }
@@ -99,21 +88,13 @@ public partial class ShoppingListPage : ContentPage
             {
                 checkedOutItem.ItemQuantity--;
             }            
-            parentList.ItemsList[parentList.ItemsList.IndexOf(checkedOutItem)] = checkedOutItem;
+            //parentList.ItemsList[parentList.ItemsList.IndexOf(checkedOutItem)] = checkedOutItem;
+
+            ((Editor)(sender as ItemPage).FindByName("ItemQty_Input")).Text = checkedOutItem.ItemQuantity.ToString();
+
             Models.ShoppingList.SaveShoppingList(parentList);
         }
     }
-
-    public void SetUICheckOut(object senderPage, bool isCheckedOut)
-    {
-        if (senderPage != null)
-        {
-            Label itemNameDisplay = (Label)(senderPage as ItemPage).FindByName("Name");
-            itemNameDisplay.TextDecorations = isCheckedOut ? TextDecorations.Strikethrough : TextDecorations.None;
-        }
-    }
-
-    //loading the list
     private void LoadShoppingList(string _filePath)
     {
         if (File.Exists(_filePath))
@@ -126,7 +107,7 @@ public partial class ShoppingListPage : ContentPage
             }
             finally
             {
-                BindingContext = loadedList;
+                BindingContext = loadedList;                
             }            
         }
     }
