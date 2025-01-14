@@ -39,7 +39,8 @@
             x:Name="ItemQtyType_Input"
             SelectedIndex="0"
             FontSize="Medium"
-            TextColor="White">
+            TextColor="White"
+            SelectedItem="szt.">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>szt.</x:String>

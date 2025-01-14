@@ -9,16 +9,23 @@ namespace ShoppingList.Models
 {
     public class UtilityThings
     {
-        public static string checkRegex(string trueString, string falseString, string pattern)
+        public static string ValidateRegexExtra(string trueString, string falseString, string pattern)
         {
-            if (Regex.IsMatch(trueString, pattern))
+            if (trueString == null) return falseString;
+
+            return Regex.IsMatch(trueString, pattern) ? trueString : falseString;
+        }
+        public static bool ValidateQuantity(string quantityString)
+        {
+            if (!String.IsNullOrWhiteSpace(quantityString))
             {
-                return trueString;
+                if (int.TryParse(quantityString, out int quantity) && int.Parse(quantityString) > 0)
+                {
+                    return true;
+                }
+                return false;
             }
-            else
-            {
-                return falseString;
-            }
+            return false;
         }
     }
 }

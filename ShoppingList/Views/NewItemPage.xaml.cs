@@ -20,12 +20,23 @@ public partial class NewItemPage : ContentPage
 	{
         Models.ShoppingList castedParentList = (Models.ShoppingList)parentList;
 
-		ShoppingListItem newItem = new ShoppingListItem();
-		newItem.ItemName = UtilityThings.checkRegex(ItemName_Input.Text.ToString(), "Item", @".+");
-		newItem.ItemQuantity = int.Parse(UtilityThings.checkRegex(ItemQuantity_Input.Text.ToString(), "0", @"^\d+"));
-		newItem.ItemQuantityType = UtilityThings.checkRegex(ItemQtyType_Input.SelectedItem.ToString(), "Thing", @".+");
-		newItem.IsCheckedOut = false;
-        newItem.ItemIdInList = castedParentList.ItemsList.Count;
+		ShoppingListItem newItem = new ShoppingListItem()
+		{
+			ItemName = "Przedmiot",
+			ItemQuantity = 1,
+			ItemQuantityType = "szt.",
+			ItemIdInList = castedParentList.ItemsList.Count,
+			IsCheckedOut = false
+		};
+
+		if (ItemName_Input.Text != null && Regex.IsMatch(ItemName_Input.Text.ToString(), @".+"))
+			newItem.ItemName = ItemName_Input.Text.ToString();
+
+		if (ItemQuantity_Input.Text != null && UtilityThings.ValidateQuantity(ItemQuantity_Input.Text.ToString()))
+            newItem.ItemQuantity = int.Parse(ItemQuantity_Input.Text.ToString());			
+
+		if (ItemQtyType_Input.SelectedItem != null && ItemQtyType_Input.SelectedItem.ToString() != null)		
+			newItem.ItemQuantityType = ItemQtyType_Input.SelectedItem.ToString();
 
         castedParentList.ItemsList.Add(newItem);
 

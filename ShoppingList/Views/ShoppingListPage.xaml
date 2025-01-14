@@ -53,6 +53,7 @@
                         RemoveItemClicked="{Binding Source={views:ShoppingListPage}, Path=RemoveItemCommand}"                        
                         IncreaseQtyClicked="{Binding Source={views:ShoppingListPage}, Path=IncreaseQtyCommand}"
                         DecreaseQtyClicked="{Binding Source={views:ShoppingListPage}, Path=DecreaseQtyCommand}"
+                        ItemQtyChanged="{Binding Source={views:ShoppingListPage}, Path=ItemQtyChangedCommand}"
                         />
                 </DataTemplate>
             </CollectionView.ItemTemplate>

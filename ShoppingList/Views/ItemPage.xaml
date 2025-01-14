@@ -53,7 +53,15 @@
             FontSize="Medium"
             VerticalTextAlignment="Center"
             HorizontalTextAlignment="End"
-            TextColor="White"/>
+            TextColor="White"
+            Keyboard="Numeric">
+            <Editor.Behaviors>
+                <toolkit:EventToCommandBehavior
+                    EventName="TextChanged"
+                    Command="{Binding Source={x:Reference this}, Path=ItemQtyChanged}"
+                    CommandParameter="{Binding}"/>
+            </Editor.Behaviors>
+        </Editor>
         <Label
             Grid.Column="3"
             Grid.Row="1"

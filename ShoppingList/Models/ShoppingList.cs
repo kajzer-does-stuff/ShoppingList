@@ -14,8 +14,8 @@ namespace ShoppingList.Models
     {
         public ObservableCollection<ShoppingListItem> ItemsList { get; set; } = new();
         public int ListID { get; set; } = 0;
-        public string ListName { get; set; } = "Shopping List";
-        public string ListFileName { get; set; } = $"{FileSystem.AppDataDirectory}/lista_zakupow.shoppingList.json";
+        public string ListName { get; set; } = "Lista";
+        public string ListFileName { get; set; } = $"{FileSystem.AppDataDirectory}/lista.shoppingList.json";
         public static void SaveShoppingList(string savePath, ShoppingList saveList)
         {
             string saveData = JsonSerializer.Serialize(saveList);

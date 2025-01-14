@@ -14,6 +14,7 @@ public partial class ItemPage : ContentView
     public static readonly BindableProperty RemoveItemClickedProperty = BindableProperty.Create(nameof(RemoveItemClicked), typeof(ICommand), typeof(ItemPage));
     public static readonly BindableProperty IncreaseQtyClickedProperty = BindableProperty.Create(nameof(IncreaseQtyClicked), typeof(ICommand), typeof(ItemPage));
     public static readonly BindableProperty DecreaseQtyClickedProperty = BindableProperty.Create(nameof(DecreaseQtyClicked), typeof(ICommand), typeof(ItemPage));
+    public static readonly BindableProperty ItemQtyChangedProperty = BindableProperty.Create(nameof(ItemQtyChanged), typeof(ICommand), typeof(ItemPage));
 
     public string ItemName
 	{
@@ -55,10 +56,13 @@ public partial class ItemPage : ContentView
         get => (ICommand)GetValue(DecreaseQtyClickedProperty);
         set => SetValue(DecreaseQtyClickedProperty, value);
     }
+    public ICommand ItemQtyChanged
+    {
+        get => (ICommand)GetValue(ItemQtyChangedProperty);
+        set => SetValue(ItemQtyChangedProperty, value);
+    }
     public ItemPage()
     {
         InitializeComponent();
-        BindingContext = this;
-        System.Diagnostics.Debug.WriteLine(BindingContext);
-    }
+    }    
 }

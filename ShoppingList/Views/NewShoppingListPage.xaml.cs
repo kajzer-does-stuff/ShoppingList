@@ -12,17 +12,18 @@ public partial class NewShoppingListPage : ContentPage
 	}
 
     private async void AddNewShoppingList_Clicked(object sender, EventArgs e)
-    {
-        string shoppingListName = Regex.IsMatch(NewShoppingListName_Input.Text.ToString(), @".+") ?
-                                    NewShoppingListName_Input.Text.ToString() : "Lista zakupów";
+    { 
+        string shoppingListName = UtilityThings.ValidateRegexExtra(NewShoppingListName_Input.Text, "Lista zakupów", @".+");
 
         string savePath = $"{FileSystem.AppDataDirectory}/{shoppingListName}.{Path.GetRandomFileName()}.shoppingList.json";
 
-        Models.ShoppingList newShoppingList = new Models.ShoppingList();
-        newShoppingList.ListName = shoppingListName;
-        newShoppingList.ListFileName = savePath;
-        newShoppingList.ListID = new Random().Next();
-        newShoppingList.ItemsList = new ObservableCollection<ShoppingListItem>();
+        Models.ShoppingList newShoppingList = new Models.ShoppingList()
+        {
+            ListName = shoppingListName,
+            ListFileName = savePath,
+            ListID = new Random().Next(),
+            ItemsList = new ObservableCollection<ShoppingListItem>()
+        };
 
         Models.ShoppingList.SaveShoppingList(savePath, newShoppingList);
 

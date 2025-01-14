@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-8HIG6J2</Machine>
+    <Machine>LENOVO</Machine>
     <WindowsUser>Kamil</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -30,1181 +30,1181 @@
     <AppXManifest Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-17T10:31:33.709</Modified>
+      <Modified>2025-01-14T10:41:23.482</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-15T20:49:15.953</Modified>
+      <Modified>2024-12-17T13:16:47.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.runtimeconfig.json">
       <PackagePath>ShoppingList.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-15T20:49:13.002</Modified>
+      <Modified>2024-12-17T13:16:46.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.dll">
       <PackagePath>ShoppingList.dll</PackagePath>
-      <Modified>2024-12-17T10:31:31.989</Modified>
+      <Modified>2025-01-14T10:41:21.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ShoppingList.exe</PackagePath>
-      <Modified>2024-12-17T10:31:32.060</Modified>
+      <Modified>2025-01-14T10:41:21.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-12-04T12:43:21.818</Modified>
+      <Modified>2024-12-17T13:11:29.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-12-04T12:43:56.757</Modified>
+      <Modified>2024-12-17T13:14:42.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-12-04T12:43:56.774</Modified>
+      <Modified>2024-12-17T13:14:42.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-12-04T12:43:56.797</Modified>
+      <Modified>2024-12-17T13:14:42.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-12-04T12:43:56.842</Modified>
+      <Modified>2024-12-17T13:14:42.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-12-04T12:43:57.025</Modified>
+      <Modified>2024-12-17T13:14:43.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-12-04T12:43:21.753</Modified>
+      <Modified>2024-12-17T13:11:29.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-12-04T12:43:21.810</Modified>
+      <Modified>2024-12-17T13:11:29.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-12-04T12:43:59.087</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.078</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.078</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.078</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.078</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.077</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.084</Modified>
+      <Modified>2024-12-17T13:14:45.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.083</Modified>
+      <Modified>2024-12-17T13:14:45.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.083</Modified>
+      <Modified>2024-12-17T13:14:45.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.083</Modified>
+      <Modified>2024-12-17T13:14:45.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.083</Modified>
+      <Modified>2024-12-17T13:14:45.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.085</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.085</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.084</Modified>
+      <Modified>2024-12-17T13:14:45.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.084</Modified>
+      <Modified>2024-12-17T13:14:45.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.084</Modified>
+      <Modified>2024-12-17T13:14:45.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.087</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.087</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.087</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.086</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.086</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.086</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.086</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.085</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.085</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.085</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.080</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.080</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.080</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.080</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.080</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.082</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.081</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.081</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.081</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.081</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.083</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.082</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.082</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.082</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.082</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.079</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.079</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.079</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.079</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.079</Modified>
+      <Modified>2024-12-17T13:14:45.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.088</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.088</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.088</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.088</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-12-04T12:43:59.087</Modified>
+      <Modified>2024-12-17T13:14:45.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\CoreMessagingXP.dll">
       <PackagePath>CoreMessagingXP.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\dcompi.dll">
       <PackagePath>dcompi.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\dwmcorei.dll">
       <PackagePath>dwmcorei.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\DwmSceneI.dll">
       <PackagePath>DwmSceneI.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\DWriteCore.dll">
       <PackagePath>DWriteCore.dll</PackagePath>
-      <Modified>2024-06-27T17:21:26.000</Modified>
+      <Modified>2024-12-17T13:12:41.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\marshal.dll">
       <PackagePath>marshal.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.DirectManipulation.dll">
       <PackagePath>Microsoft.DirectManipulation.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Graphics.Display.dll">
       <PackagePath>Microsoft.Graphics.Display.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.InputStateManager.dll">
       <PackagePath>Microsoft.InputStateManager.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Internal.FrameworkUdk.dll">
       <PackagePath>Microsoft.Internal.FrameworkUdk.dll</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:41.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Composition.OSSupport.dll">
       <PackagePath>Microsoft.UI.Composition.OSSupport.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.dll">
       <PackagePath>Microsoft.UI.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Input.dll">
       <PackagePath>Microsoft.UI.Input.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Windowing.Core.dll">
       <PackagePath>Microsoft.UI.Windowing.Core.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Windowing.dll">
       <PackagePath>Microsoft.UI.Windowing.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Xaml.Controls.dll">
       <PackagePath>Microsoft.UI.Xaml.Controls.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.ui.xaml.dll">
       <PackagePath>Microsoft.ui.xaml.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Xaml.Internal.dll">
       <PackagePath>Microsoft.UI.Xaml.Internal.dll</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:42.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Xaml.Phone.dll">
       <PackagePath>Microsoft.UI.Xaml.Phone.dll</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:42.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.ui.xaml.resources.19h1.dll">
       <PackagePath>Microsoft.ui.xaml.resources.19h1.dll</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:42.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.ui.xaml.resources.common.dll">
       <PackagePath>Microsoft.ui.xaml.resources.common.dll</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:42.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:42.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.ApplicationModel.Resources.dll">
       <PackagePath>Microsoft.Windows.ApplicationModel.Resources.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.Widgets.dll">
       <PackagePath>Microsoft.Windows.Widgets.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.WindowsAppRuntime.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.741</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.WindowsAppRuntime.Insights.Resource.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Insights.Resource.dll</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:42.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\MRM.dll">
       <PackagePath>MRM.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\PushNotificationsLongRunningTask.ProxyStub.dll">
       <PackagePath>PushNotificationsLongRunningTask.ProxyStub.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\WindowsAppSdk.AppxDeploymentExtensions.Desktop-EventLog-Instrumentation.dll">
       <PackagePath>WindowsAppSdk.AppxDeploymentExtensions.Desktop-EventLog-Instrumentation.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll">
       <PackagePath>WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\WinUIEdit.dll">
       <PackagePath>WinUIEdit.dll</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:43.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\wuceffectsi.dll">
       <PackagePath>wuceffectsi.dll</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\RestartAgent.exe">
       <PackagePath>RestartAgent.exe</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Xaml\Assets\map.html">
       <PackagePath>Microsoft.UI.Xaml\Assets\map.html</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\af-ZA\Microsoft.ui.xaml.dll.mui">
       <PackagePath>af-ZA\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\af-ZA\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>af-ZA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\am-ET\Microsoft.ui.xaml.dll.mui">
       <PackagePath>am-ET\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\am-ET\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>am-ET\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ar-SA\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ar-SA\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ar-SA\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ar-SA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\as-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>as-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:43.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\as-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>as-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:43.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\az-Latn-AZ\Microsoft.ui.xaml.dll.mui">
       <PackagePath>az-Latn-AZ\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.683</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\az-Latn-AZ\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>az-Latn-AZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\bg-BG\Microsoft.ui.xaml.dll.mui">
       <PackagePath>bg-BG\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\bg-BG\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>bg-BG\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:43.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\bn-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>bn-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\bn-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>bn-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\bs-Latn-BA\Microsoft.ui.xaml.dll.mui">
       <PackagePath>bs-Latn-BA\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\bs-Latn-BA\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>bs-Latn-BA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ca-Es-VALENCIA\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ca-Es-VALENCIA\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ca-Es-VALENCIA\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ca-Es-VALENCIA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:43.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ca-ES\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ca-ES\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ca-ES\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ca-ES\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\cs-CZ\Microsoft.ui.xaml.dll.mui">
       <PackagePath>cs-CZ\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\cs-CZ\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>cs-CZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\cy-GB\Microsoft.ui.xaml.dll.mui">
       <PackagePath>cy-GB\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\cy-GB\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>cy-GB\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:43.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\da-DK\Microsoft.ui.xaml.dll.mui">
       <PackagePath>da-DK\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\da-DK\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>da-DK\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:43.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\de-DE\Microsoft.ui.xaml.dll.mui">
       <PackagePath>de-DE\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\de-DE\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>de-DE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\el-GR\Microsoft.ui.xaml.dll.mui">
       <PackagePath>el-GR\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\el-GR\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>el-GR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\en-GB\Microsoft.ui.xaml.dll.mui">
       <PackagePath>en-GB\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\en-GB\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>en-GB\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\en-us\Microsoft.ui.xaml.dll.mui">
       <PackagePath>en-us\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\en-us\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>en-us\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\es-ES\Microsoft.ui.xaml.dll.mui">
       <PackagePath>es-ES\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\es-ES\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>es-ES\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\es-MX\Microsoft.ui.xaml.dll.mui">
       <PackagePath>es-MX\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\es-MX\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>es-MX\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\et-EE\Microsoft.ui.xaml.dll.mui">
       <PackagePath>et-EE\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\et-EE\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>et-EE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\eu-ES\Microsoft.ui.xaml.dll.mui">
       <PackagePath>eu-ES\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\eu-ES\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>eu-ES\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fa-IR\Microsoft.ui.xaml.dll.mui">
       <PackagePath>fa-IR\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fa-IR\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>fa-IR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fi-FI\Microsoft.ui.xaml.dll.mui">
       <PackagePath>fi-FI\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fi-FI\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>fi-FI\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fil-PH\Microsoft.ui.xaml.dll.mui">
       <PackagePath>fil-PH\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fil-PH\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>fil-PH\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fr-CA\Microsoft.ui.xaml.dll.mui">
       <PackagePath>fr-CA\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fr-CA\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>fr-CA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fr-FR\Microsoft.ui.xaml.dll.mui">
       <PackagePath>fr-FR\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\fr-FR\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>fr-FR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ga-IE\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ga-IE\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ga-IE\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ga-IE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\gd-gb\Microsoft.ui.xaml.dll.mui">
       <PackagePath>gd-gb\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\gd-gb\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>gd-gb\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\gl-ES\Microsoft.ui.xaml.dll.mui">
       <PackagePath>gl-ES\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\gl-ES\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>gl-ES\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\gu-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>gu-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\gu-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>gu-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\he-IL\Microsoft.ui.xaml.dll.mui">
       <PackagePath>he-IL\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\he-IL\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>he-IL\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\hi-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>hi-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\hi-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>hi-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\hr-HR\Microsoft.ui.xaml.dll.mui">
       <PackagePath>hr-HR\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\hr-HR\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>hr-HR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\hu-HU\Microsoft.ui.xaml.dll.mui">
       <PackagePath>hu-HU\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\hu-HU\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>hu-HU\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\hy-AM\Microsoft.ui.xaml.dll.mui">
       <PackagePath>hy-AM\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\hy-AM\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>hy-AM\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\id-ID\Microsoft.ui.xaml.dll.mui">
       <PackagePath>id-ID\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\id-ID\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>id-ID\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\is-IS\Microsoft.ui.xaml.dll.mui">
       <PackagePath>is-IS\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:44.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\is-IS\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>is-IS\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\it-IT\Microsoft.ui.xaml.dll.mui">
       <PackagePath>it-IT\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\it-IT\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>it-IT\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:44.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ja-JP\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ja-JP\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ja-JP\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ja-JP\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ka-GE\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ka-GE\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ka-GE\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ka-GE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\kk-KZ\Microsoft.ui.xaml.dll.mui">
       <PackagePath>kk-KZ\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\kk-KZ\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>kk-KZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\km-KH\Microsoft.ui.xaml.dll.mui">
       <PackagePath>km-KH\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\km-KH\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>km-KH\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.143</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\kn-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>kn-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\kn-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>kn-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ko-KR\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ko-KR\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ko-KR\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ko-KR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\kok-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>kok-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\kok-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>kok-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\lb-LU\Microsoft.ui.xaml.dll.mui">
       <PackagePath>lb-LU\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\lb-LU\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>lb-LU\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.299</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\lo-LA\Microsoft.ui.xaml.dll.mui">
       <PackagePath>lo-LA\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\lo-LA\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>lo-LA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\lt-LT\Microsoft.ui.xaml.dll.mui">
       <PackagePath>lt-LT\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\lt-LT\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>lt-LT\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\lv-LV\Microsoft.ui.xaml.dll.mui">
       <PackagePath>lv-LV\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\lv-LV\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>lv-LV\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\mi-NZ\Microsoft.ui.xaml.dll.mui">
       <PackagePath>mi-NZ\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\mi-NZ\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>mi-NZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:45.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\mk-MK\Microsoft.ui.xaml.dll.mui">
       <PackagePath>mk-MK\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\mk-MK\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>mk-MK\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ml-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ml-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ml-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ml-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\mr-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>mr-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\mr-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>mr-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ms-MY\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ms-MY\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ms-MY\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ms-MY\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\mt-MT\Microsoft.ui.xaml.dll.mui">
       <PackagePath>mt-MT\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\mt-MT\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>mt-MT\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\nb-NO\Microsoft.ui.xaml.dll.mui">
       <PackagePath>nb-NO\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\nb-NO\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>nb-NO\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ne-NP\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ne-NP\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ne-NP\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ne-NP\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\nl-NL\Microsoft.ui.xaml.dll.mui">
       <PackagePath>nl-NL\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.770</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\nl-NL\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>nl-NL\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\nn-NO\Microsoft.ui.xaml.dll.mui">
       <PackagePath>nn-NO\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\nn-NO\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>nn-NO\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\or-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>or-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\or-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>or-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\pa-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>pa-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\pa-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>pa-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\pl-PL\Microsoft.ui.xaml.dll.mui">
       <PackagePath>pl-PL\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\pl-PL\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>pl-PL\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\pt-BR\Microsoft.ui.xaml.dll.mui">
       <PackagePath>pt-BR\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.005</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\pt-BR\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>pt-BR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:45.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\pt-PT\Microsoft.ui.xaml.dll.mui">
       <PackagePath>pt-PT\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\pt-PT\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>pt-PT\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\quz-PE\Microsoft.ui.xaml.dll.mui">
       <PackagePath>quz-PE\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\quz-PE\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>quz-PE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ro-RO\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ro-RO\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ro-RO\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ro-RO\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ru-RU\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ru-RU\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ru-RU\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ru-RU\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sk-SK\Microsoft.ui.xaml.dll.mui">
       <PackagePath>sk-SK\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sk-SK\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>sk-SK\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sl-SI\Microsoft.ui.xaml.dll.mui">
       <PackagePath>sl-SI\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sl-SI\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>sl-SI\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sq-AL\Microsoft.ui.xaml.dll.mui">
       <PackagePath>sq-AL\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sq-AL\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>sq-AL\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sr-Cyrl-BA\Microsoft.ui.xaml.dll.mui">
       <PackagePath>sr-Cyrl-BA\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sr-Cyrl-BA\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>sr-Cyrl-BA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sr-Cyrl-RS\Microsoft.ui.xaml.dll.mui">
       <PackagePath>sr-Cyrl-RS\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sr-Cyrl-RS\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>sr-Cyrl-RS\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sr-Latn-RS\Microsoft.ui.xaml.dll.mui">
       <PackagePath>sr-Latn-RS\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sr-Latn-RS\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>sr-Latn-RS\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sv-SE\Microsoft.ui.xaml.dll.mui">
       <PackagePath>sv-SE\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\sv-SE\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>sv-SE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ta-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ta-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.461</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ta-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ta-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\te-IN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>te-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\te-IN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>te-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\th-TH\Microsoft.ui.xaml.dll.mui">
       <PackagePath>th-TH\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\th-TH\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>th-TH\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\tr-TR\Microsoft.ui.xaml.dll.mui">
       <PackagePath>tr-TR\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\tr-TR\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>tr-TR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\tt-RU\Microsoft.ui.xaml.dll.mui">
       <PackagePath>tt-RU\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\tt-RU\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>tt-RU\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ug-CN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ug-CN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ug-CN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ug-CN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\uk-UA\Microsoft.ui.xaml.dll.mui">
       <PackagePath>uk-UA\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\uk-UA\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>uk-UA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ur-PK\Microsoft.ui.xaml.dll.mui">
       <PackagePath>ur-PK\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\ur-PK\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>ur-PK\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\uz-Latn-UZ\Microsoft.ui.xaml.dll.mui">
       <PackagePath>uz-Latn-UZ\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\uz-Latn-UZ\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>uz-Latn-UZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\vi-VN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>vi-VN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\vi-VN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>vi-VN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\zh-CN\Microsoft.ui.xaml.dll.mui">
       <PackagePath>zh-CN\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\zh-CN\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>zh-CN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:46.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\zh-TW\Microsoft.ui.xaml.dll.mui">
       <PackagePath>zh-TW\Microsoft.ui.xaml.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:46.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\zh-TW\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>zh-TW\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:46.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Xaml\Assets\NoiseAsset_256x256_PNG.png">
       <PackagePath>Microsoft.UI.Xaml\Assets\NoiseAsset_256x256_PNG.png</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:43.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\WindowsAppRuntime.png">
       <PackagePath>WindowsAppRuntime.png</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:43.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Foundation.winmd">
       <PackagePath>Microsoft.Foundation.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Graphics.winmd">
       <PackagePath>Microsoft.Graphics.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:41.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Text.winmd">
       <PackagePath>Microsoft.UI.Text.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:41.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.winmd">
       <PackagePath>Microsoft.UI.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:42.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:42.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.ApplicationModel.DynamicDependency.winmd">
       <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.ApplicationModel.Resources.winmd">
       <PackagePath>Microsoft.Windows.ApplicationModel.Resources.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd">
       <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.AppLifecycle.winmd">
       <PackagePath>Microsoft.Windows.AppLifecycle.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.AppNotifications.Builder.winmd">
       <PackagePath>Microsoft.Windows.AppNotifications.Builder.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.AppNotifications.winmd">
       <PackagePath>Microsoft.Windows.AppNotifications.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.Management.Deployment.winmd">
       <PackagePath>Microsoft.Windows.Management.Deployment.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.PushNotifications.winmd">
       <PackagePath>Microsoft.Windows.PushNotifications.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.Security.AccessControl.winmd">
       <PackagePath>Microsoft.Windows.Security.AccessControl.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.System.Power.winmd">
       <PackagePath>Microsoft.Windows.System.Power.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.System.winmd">
       <PackagePath>Microsoft.Windows.System.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.Windows.Widgets.winmd">
       <PackagePath>Microsoft.Windows.Widgets.winmd</PackagePath>
-      <Modified>2024-06-27T17:21:28.000</Modified>
+      <Modified>2024-12-17T13:12:42.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.deps.json">
       <PackagePath>ShoppingList.deps.json</PackagePath>
-      <Modified>2024-12-15T20:49:12.821</Modified>
+      <Modified>2024-12-17T13:16:46.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
+    <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.53\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
-      <Modified>2024-09-09T00:48:42.000</Modified>
+      <Modified>2024-10-14T22:26:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\WinRT.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.53\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
-      <Modified>2024-09-09T00:48:40.000</Modified>
+      <Modified>2024-10-14T22:26:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\communitytoolkit.maui\9.1.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
       <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
@@ -1492,7 +1492,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Xaml.Controls.pri">
       <PackagePath>Microsoft.UI.Xaml.Controls.pri</PackagePath>
-      <Modified>2024-06-27T17:21:30.000</Modified>
+      <Modified>2024-12-17T13:12:42.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kamil\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
